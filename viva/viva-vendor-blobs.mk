@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/viva/proprietary/vendor/bin/pvrsrvctl_SGX540_120:system/vendor/bin/pvrsrvctl_SGX540_120 \
   vendor/huawei/viva/proprietary/vendor/bin/pvrsrvctl_SGX544_112:system/vendor/bin/pvrsrvctl_SGX544_112 \
   vendor/huawei/viva/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
+  vendor/huawei/viva/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
   vendor/huawei/viva/proprietary/lib/libion.so:system/lib/libion.so \
   vendor/huawei/viva/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
   vendor/huawei/viva/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so:system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so \
@@ -105,7 +106,7 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/viva/proprietary/bin/atcmdserver:system/bin/atcmdserver \
   vendor/huawei/viva/proprietary/bin/Injection_nv:system/bin/Injection_nv \
   vendor/huawei/viva/proprietary/bin/glgps:system/bin/glgps \
-  vendor/huawei/viva/proprietary/bin/glgps:system/bin/bluetoothd \
+  vendor/huawei/viva/proprietary/bin/bluetoothd:system/bin/bluetoothd \
   vendor/huawei/viva/proprietary/bin/gpslogd:system/bin/gpslogd \
   vendor/huawei/viva/proprietary/bin/IMCdownload_App:system/bin/IMCdownload_App \
   vendor/huawei/viva/proprietary/bin/wl:system/bin/wl \
